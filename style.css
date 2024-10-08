@@ -143,7 +143,12 @@ article {
     cursor: pointer;
 }
 
+.blog-card a {
+    text-decoration: none;
+}
+
 .blog-desc h3 {
+    color: white;
     margin-bottom: 12px;
 }
 
