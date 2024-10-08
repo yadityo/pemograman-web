@@ -207,6 +207,10 @@ hr {
     text-decoration: none;
 }
 
+.footer-list a:hover {
+    color: #2cb67d;
+}
+
 /* responsive */
 
 /* tablets */
@@ -234,7 +238,7 @@ hr {
 
 @media (max-width: 480px) {
     header {
-        width: 100%;
+        width: 90%;
         padding: 10px 0;
     }
     
@@ -244,9 +248,7 @@ hr {
     }
 
     ul {
-        gap: 16px;
-        flex-direction: column;
-        text-align: center;
+        gap: 32px;
     }
 
     .profile-image img {
@@ -254,8 +256,7 @@ hr {
     }
 
     .profile-desc ul {
-        flex-direction: column;
-        gap: 12px;
+        gap: 24 px;
     }
 
     .tools-card {
